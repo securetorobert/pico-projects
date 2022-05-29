@@ -11,7 +11,7 @@ it only requires two signal wires to exchange information.
 import machine
 
 sda = machine.Pin(4) # serial data pin
-scl = machine.Pin(1) # serial clock pin
+scl = machine.Pin(5) # serial clock pin
 freq = 400000 # 400kHz. could also be 100kHz
 channel = 0 # 0 or 1 depending on the pins in use. Please use the Pico pinout diagram to determine the right channel
 

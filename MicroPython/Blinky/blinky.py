@@ -1,7 +1,7 @@
 import machine
 import utime
 
-LED = machine.Pin(25, machine.Pin.OUT)
+LED = machine.Pin(26, machine.Pin.OUT)
 
 while True:
     LED.toggle()
